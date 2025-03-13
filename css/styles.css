@@ -28,7 +28,7 @@ audio::-webkit-media-controls-panel {
 
 h1{font-family:'os';
     color: white;
-    animation: glow 1.5s infinite alternate;
+    text-shadow: 0 0 10px white, 0 0 800px white;
     font-weight: bold;
     text-align: center;
     user-select: none;
