@@ -2,7 +2,7 @@
     font-family: 'os';
     src: url('../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');}
 
-    html {
+    html { 
         font-size: 16px; /* Taille de base de 16px */
     }
     
@@ -16,17 +16,6 @@
     width: 100%;}
 
 .h4rmon {margin-bottom: -20px;}
-
-h1{font-family:'os';
-    font-weight: bold;
-    text-align: center;
-    user-select: none;
-    font-size: 2.8rem;}
-
-h2{font-family:'os';
-    text-align: center;
-    font-size: 1.8rem;
-    user-select: none;}
 
 .audios {display: flex;
         align-items: center;
