@@ -19,16 +19,16 @@ html, body {
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 18vw; /* Réduit encore plus sur petits écrans */}
+        font-size: 20vw; /* Réduit encore plus sur petits écrans */}
     audio {
-        width: 50%; /* Réduit la largeur du lecteur sur les petits écrans */}
+        width: 100%; /* Réduit la largeur du lecteur sur les petits écrans */}
 }
 
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 15vw; /* Encore plus petit pour les téléphones très petits */}
+        font-size: 20vw; /* Encore plus petit pour les téléphones très petits */}
     audio {
-        width: 50%; /* Sur très petit écran, prend toute la largeur */}
+        width: 100%; /* Sur très petit écran, prend toute la largeur */}
 }
 
 .logo {
@@ -49,7 +49,7 @@ html, body {
 
 
 audio {
-    width: 80%; /* Adapte la taille du lecteur à 80% de la largeur du conteneur */
+    width: 30%; /* Adapte la taille du lecteur à 80% de la largeur du conteneur */
     max-width: 500px; /* Taille maximale sur grand écran */
     height: auto; /* Garde les proportions */
 }
