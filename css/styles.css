@@ -45,12 +45,11 @@ html, body {
     justify-content: center;
     width: 100%; /* S'assure que la div occupe toute la largeur de l'écran */
     padding: 0 10px; /* Pour éviter que ça touche les bords de l'écran */
-}
+    margin-bottom: 100px;}
 
 
 audio {
     width: 30%; /* Adapte la taille du lecteur à 80% de la largeur du conteneur */
-    max-width: 500px; /* Taille maximale sur grand écran */
     height: auto; /* Garde les proportions */
 }
 
