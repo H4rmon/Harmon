@@ -10,19 +10,11 @@ body {
     font-size: 1rem; /* Taille du texte du body égal à 16px */
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Empêche le débordement horizontal */
+    margin: 0;
+    padding: 0;
 }
 
 .logo{display: flex;
