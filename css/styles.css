@@ -20,15 +20,13 @@ html, body {
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 20vw; /* Réduit encore plus sur petits écrans */}
-    audio {
-        width: 90%; /* Réduit la largeur du lecteur sur les petits écrans */}
+  
 }
 
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 20vw; /* Encore plus petit pour les téléphones très petits */}
-    audio {
-        width: 100%; /* Sur très petit écran, prend toute la largeur */}
+   
 }
 
 .logo {
