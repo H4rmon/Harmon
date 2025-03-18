@@ -10,6 +10,11 @@ body {
     font-size: 1rem; /* Taille du texte du body égal à 16px */
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
     body {
         font-size: 16px;
@@ -34,7 +39,7 @@ body {
 audio::-webkit-media-controls-panel {
     display: flex !important; 
     flex-direction: row; }
-    audio::-webkit-media-controls-time-remaining-display {display: none;}
+audio::-webkit-media-controls-time-remaining-display {display: none;}
 
 h1{font-family:'os';
     color: white;
