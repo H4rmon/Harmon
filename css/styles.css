@@ -2,18 +2,13 @@
     font-family: 'os';
     src: url('../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');}
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;}
-
-   
-
-    html { 
+html { 
     font-size: 16px; /* Taille de base de 16px */
     background-color: rgb(0, 0, 0);}
     
 body {
-    font-size: 1rem; /* Taille du texte du body égal à 16px */}
+    font-size: 1rem; /* Taille du texte du body égal à 16px */
+}
 
 .logo{display: flex;
     align-items: center;
