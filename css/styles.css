@@ -19,14 +19,16 @@ html, body {
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 15vw; /* Réduit encore plus sur petits écrans */
-    }
+        font-size: 15vw; /* Réduit encore plus sur petits écrans */}
+    audio {
+        width: 90%; /* Réduit la largeur du lecteur sur les petits écrans */}
 }
 
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 12vw; /* Encore plus petit pour les téléphones très petits */
-    }
+        font-size: 12vw; /* Encore plus petit pour les téléphones très petits */}
+    audio {
+        width: 100%; /* Sur très petit écran, prend toute la largeur */}
 }
 
 .logo {
@@ -38,9 +40,19 @@ html, body {
     margin-top: 50px;
     margin-bottom: 100px;}
 
-.audios {display: flex;
-        align-items: center;
-        justify-content: center;}
+.audios {  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* S'assure que la div occupe toute la largeur de l'écran */
+    padding: 0 10px; /* Pour éviter que ça touche les bords de l'écran */
+}
+
+
+audio {
+    width: 80%; /* Adapte la taille du lecteur à 80% de la largeur du conteneur */
+    max-width: 500px; /* Taille maximale sur grand écran */
+    height: auto; /* Garde les proportions */
+}
 
 audio::-webkit-media-controls-panel {
     display: flex !important; 
