@@ -3,8 +3,8 @@
     src: url('../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');}
 
 .container {
-    display: flex;
-    flex-direction: column;}
+    display: grid;
+    grid-template-columns: 1fr;}
 
    
 
