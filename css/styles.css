@@ -35,9 +35,8 @@ html, body {
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-.h4rmon {margin-bottom: -20px;}
+    margin-top: 50px;
+    margin-bottom: 100px;}
 
 .audios {display: flex;
         align-items: center;
@@ -56,9 +55,7 @@ h1{font-family:'os';
     user-select: none;
     font-size: 20vw;
     margin: 50px 0;
-    max-width: 100%;
-    margin-top: 50px;
-    margin-bottom: 100px;}
+    max-width: 100%;}
 
 
 
