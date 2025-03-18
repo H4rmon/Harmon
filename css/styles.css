@@ -10,6 +10,16 @@ body {
     font-size: 1rem; /* Taille du texte du body égal à 16px */
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
 .logo{display: flex;
     align-items: center;
     justify-content: center;
