@@ -17,6 +17,18 @@ html, body {
     padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 15vw; /* Réduit encore plus sur petits écrans */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 12vw; /* Encore plus petit pour les téléphones très petits */
+    }
+}
+
 .logo {
     display: flex;
     flex-direction: column;
@@ -42,7 +54,7 @@ h1{font-family:'os';
     font-weight: bold;
     text-align: center;
     user-select: none;
-    font-size: 20rem;
+    font-size: 20vw;
     max-width: 100%;
     margin-top: 50px;
     margin-bottom: 100px;}
