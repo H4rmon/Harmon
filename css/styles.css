@@ -22,6 +22,10 @@ html, body {
         font-size: 20vw; /* Réduit encore plus sur petits écrans */}
     audio {
         width: 90%; /* Réduit la largeur du lecteur sur les petits écrans */}
+    .audios {
+        display: flex;
+    align-items: center;
+    justify-content: center;}
 }
 
 @media screen and (max-width: 480px) {
@@ -29,6 +33,10 @@ html, body {
         font-size: 20vw; /* Encore plus petit pour les téléphones très petits */}
     audio {
         width: 100%; /* Sur très petit écran, prend toute la largeur */}
+    .audios {
+        display: flex;
+        align-items: center;
+        justify-content: center;}
 }
 
 .logo {
