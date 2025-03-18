@@ -21,7 +21,7 @@ html, body {
     h1 {
         font-size: 20vw; /* Réduit encore plus sur petits écrans */}
     audio {
-        width: 100%; /* Réduit la largeur du lecteur sur les petits écrans */}
+        width: 90%; /* Réduit la largeur du lecteur sur les petits écrans */}
 }
 
 @media screen and (max-width: 480px) {
@@ -40,18 +40,19 @@ html, body {
     margin-top: 50px;
     margin-bottom: 100px;}
 
-.audios {  display: flex;
+.audios {  
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%; /* S'assure que la div occupe toute la largeur de l'écran */
     padding: 0 10px; /* Pour éviter que ça touche les bords de l'écran */
     margin-bottom: 100px;}
-
-
+    
 audio {
-    width: 30%; /* Adapte la taille du lecteur à 80% de la largeur du conteneur */
-    height: auto; /* Garde les proportions */
-}
+    width: 20%; /* Le lecteur occupe 100% de la largeur de son parent */
+    max-width: 600px; /* Limite la taille maximale pour éviter qu'il devienne trop grand */
+    min-width: 200px; /* Ajoute une largeur minimale pour éviter que l'audio devienne trop petit */
+    box-sizing: border-box; /* Ajoute cette règle pour s'assurer que les marges/paddings ne causent pas de débordements */}
 
 audio::-webkit-media-controls-panel {
     display: flex !important; 
